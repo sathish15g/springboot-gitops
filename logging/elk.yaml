@@ -5,6 +5,9 @@ metadata:
   namespace: logging
 spec:
   version: 9.5.0
+  auth:
+    roles:
+      - secretName: logstash-user-role
   nodeSets:
     - name: default
       count: 1
