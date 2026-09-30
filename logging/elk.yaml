@@ -15,7 +15,7 @@ spec:
           containers:
             - name: elasticsearch
               resources:
-                requests: { memory: 2Gi, cpu: 500m }
+                requests: { memory: 3Gi, cpu: 500m }
                 limits:   { memory: 3Gi }
 ---
 apiVersion: kibana.k8s.elastic.co/v1
